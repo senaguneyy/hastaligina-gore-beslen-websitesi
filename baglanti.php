@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "sena";
-$password = "senanur34.";
+$username = "root";
+$password = "";
 $database = "giris_ekranı";
 
 $conn = new mysqli($servername, $username, $password, $database);
@@ -11,3 +11,4 @@ if ($conn->connect_error) {
 }
 //echo "MySQL bağlantısı başarılı!";
 ?>
+
